@@ -1,0 +1,86 @@
+{
+  "title": "Fresh Kirana Store - Daily Groceries & Essentials",
+  "business_name": "Fresh Kirana Bhandar",
+  "tagline": "Your neighborhood store for fresh groceries and daily essentials",
+  "whatsapp": "919876543210",
+  "phone": "+91 98765 43210",
+  "address": "123 Gandhi Road, Near Patel Chowk, Mumbai, Maharashtra 400001",
+  "hours": "Mon-Sun 8AM \u2013 10PM",
+  "theme": {
+    "primary": "#FF9933",
+    "secondary": "#138808",
+    "accent": "#FF6B35",
+    "bg": "#FFF8E1",
+    "surface": "#FFFFFF",
+    "text": "#212121",
+    "muted": "#757575",
+    "on_primary": "#FFFFFF",
+    "overlay": "rgba(0,0,0,0.55)",
+    "radius": "12px",
+    "font_head": "Poppins",
+    "font_body": "Open Sans",
+    "fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+  },
+  "hero": {
+    "heading": "Fresh Groceries Daily",
+    "subheading": "Your trusted neighborhood kirana store for quality essentials",
+    "cta_text": "Order Now on WhatsApp",
+    "cta_href": "#contact",
+    "bg_query": "colorful grocery store shelves with fresh vegetables and spices"
+  },
+  "menu": {
+    "section_title": "Fresh Produce & Daily Essentials",
+    "items": [
+      {
+        "name": "Fresh Vegetables",
+        "desc": "Seasonal veggies, hand-picked daily",
+        "price": "\u20b9200-500",
+        "emoji": "\ud83e\udd6c"
+      },
+      {
+        "name": "Basmati Rice",
+        "desc": "Premium quality long-grain rice",
+        "price": "\u20b9300-800",
+        "emoji": "\ud83c\udf5a"
+      },
+      {
+        "name": "Cooking Spices",
+        "desc": "Fresh ground masalas and whole spices",
+        "price": "\u20b9150-400",
+        "emoji": "\ud83c\udf36\ufe0f"
+      },
+      {
+        "name": "Daily Essentials",
+        "desc": "Detergents, oils, and household items",
+        "price": "\u20b9100-600",
+        "emoji": "\ud83e\uddfc"
+      }
+    ]
+  },
+  "about": {
+    "heading": "Your Trusted Neighborhood Store",
+    "para1": "Family-owned kirana store serving our community for over 15 years with commitment to quality and freshness.",
+    "para2": "We bring you the best daily essentials at fair prices, ensuring your family's needs are always met with care.",
+    "stats": [
+      {
+        "number": "15+",
+        "label": "Years of Trust"
+      },
+      {
+        "number": "500+",
+        "label": "Happy Families"
+      },
+      {
+        "number": "200+",
+        "label": "Products Available"
+      }
+    ]
+  },
+  "gallery_seeds": [
+    "kirana1",
+    "kirana2",
+    "kirana3"
+  ],
+  "schema_type": "LocalBusiness",
+  "meta_desc": "Fresh kirana store in Mumbai offering daily groceries, vegetables, spices and household essentials. Order now!"
+}

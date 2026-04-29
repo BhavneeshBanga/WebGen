@@ -8,8 +8,8 @@ import urllib.request
 from pathlib import Path
 
 # ─── Configuration ───────────────────────────────────────────────────────────
-SARVAM_API_KEY  = "sk_9mq4thf7_GqvcQSBqvEGOMzACqmABwkMG"
-SERPAPI_KEY     = "569641b4f3aa637b161e1ec46387d740e78758dc817b8334ee8a52ef6491713c"
+SARVAM_API_KEY  = ""
+SERPAPI_KEY     = ""
 MODEL           = "sarvam-105b"
 API_URL         = "https://api.sarvam.ai/v1/chat/completions"
 SERPAPI_URL     = "https://serpapi.com/search"

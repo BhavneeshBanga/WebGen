@@ -1,0 +1,34 @@
+{
+  "image_queries": [
+    {
+      "key": "extra_img_0",
+      "query": "business interior photo",
+      "used_in": "extra section 0",
+      "dimensions": "800x500"
+    },
+    {
+      "key": "extra_img_1",
+      "query": "business interior photo",
+      "used_in": "extra section 1",
+      "dimensions": "800x500"
+    },
+    {
+      "key": "extra_img_2",
+      "query": "business interior photo",
+      "used_in": "extra section 2",
+      "dimensions": "800x500"
+    },
+    {
+      "key": "extra_img_3",
+      "query": "business interior photo",
+      "used_in": "extra section 3",
+      "dimensions": "800x500"
+    },
+    {
+      "key": "extra_img_4",
+      "query": "business interior photo",
+      "used_in": "extra section 4",
+      "dimensions": "800x500"
+    }
+  ]
+}

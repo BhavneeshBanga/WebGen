@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title></title>
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    
+    <!-- JSON-LD LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "",
+        "description": "",
+        "telephone": "+91 98765 43210",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "",
+            "addressRegion": "",
+            "postalCode": "",
+            "streetAddress": ""
+        },
+        "openingHours": "",
+        "areaServed": "",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Products",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "Groceries"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header class="nav" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="nav-logo">Kirana Store</a>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav-links" id="navLinks">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <a href="wa.me/919876543210" class="nav-cta" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero reveal" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Fresh Groceries at Your Doorstep</h1>
+                <p>Your trusted local kirana store delivering quality essentials daily</p>
+                <a href="#contact" class="hero-cta">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="reveal" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Store</h2>
+                <p>Serving the community with quality groceries since 2020</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Neighborhood Grocery Partner</h3>
+                    <p>We are committed to providing fresh, quality groceries at affordable prices. Our experienced team ensures you get the best products for your family's needs.</p>
+                    <ul class="features-list">
+                        <li>Fresh produce daily</li>
+                        <li>Home delivery available</li>
+                        <li>Quality assured products</li>
+                        <li>Competitive pricing</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/extra_img_0.jpg" alt="About Store" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products/Gallery Section -->
+    <section class="reveal" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <p>Fresh groceries and household essentials</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/seed/gallery_1/400/300.jpg" alt="Fresh Vegetables" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Fresh Vegetables</h3>
+                        <p>Daily fresh produce</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/seed/gallery_2/400/300.jpg" alt="Dairy Products" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Dairy Products</h3>
+                        <p>Fresh milk & cheese</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/seed/gallery_3/400/300.jpg" alt="Pantry Staples" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Pantry Staples</h3>
+                        <p>Rice, flour & spices</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/seed/gallery_4/400/300.jpg" alt="Beverages" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Beverages</h3>
+                        <p>Juices & drinks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="reveal" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services We Offer</h2>
+                <p>Convenient shopping options for busy lifestyles</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/extra_img_1.jpg" alt="Service" class="service-img">
+                    </div>
+                    <h3>Home Delivery</h3>
+                    <p>Get your groceries delivered right to your doorstep within 2 hours.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/extra_img_2.jpg" alt="Service" class="service-img">
+                    </div>
+                    <h3>Online Ordering</h3>
+                    <p>Order through our website or mobile app for quick and easy shopping.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/extra_img_3.jpg" alt="Service" class="service-img">
+                    </div>
+                    <h3>Credit Facility</h3>
+                    <p>Trusted credit facility for regular customers with flexible payment options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="reveal" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We're here to help you with your grocery needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p><strong>Address:</strong> 123 Main Street, Local Market<br>
+                    <strong>Phone:</strong> +91 98765 43210<br>
+                    <strong>Email:</strong> info@kiranastore.com</p>
+                    <div class="contact-hours">
+                        <h4>Business Hours</h4>
+                        <p>Monday - Saturday: 7:00 AM - 10:00 PM<br>
+                        Sunday: 8:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kirana Store</h3>
+                    <p>Your trusted neighborhood grocery store for fresh, quality products at affordable prices.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" aria-label="Facebook">f</a>
+                        <a href="#" target="_blank" aria-label="Instagram">i</a>
+                        <a href="#" target="_blank" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kirana Store. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Script -->
+    <script src="./script.js" defer></script>
+</body>
+</html>

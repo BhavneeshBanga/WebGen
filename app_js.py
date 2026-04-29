@@ -5,7 +5,7 @@ import json
 import time
 
 # ─── Configuration ───────────────────────────────────────────────────────────
-SARVAM_API_KEY = "sk_9mq4thf7_GqvcQSBqvEGOMzACqmABwkMG"
+SARVAM_API_KEY = "sk_9mq4tvEGOMzACqmABwkMG"
 MODEL          = "sarvam-105b"
 API_URL        = "https://api.sarvam.ai/v1/chat/completions"
 MAX_TOKENS     = 4096

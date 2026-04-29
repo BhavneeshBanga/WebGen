@@ -23,10 +23,10 @@ import time
 from pathlib import Path
 
 # ─── Configuration ───────────────────────────────────────────────────────────
-SARVAM_API_KEY = "sk_9mq4thf7_GqvcQSBqvEGOMzACqmABwkMG"
+SARVAM_API_KEY = "sk_9mqGOMzACqmABwkMG"
 MODEL          = "sarvam-105b"
 API_URL        = "https://api.sarvam.ai/v1/chat/completions"
-OUTPUT_DIR     = "."
+OUTPUT_DIR     = "grocrie"
 MAX_TOKENS     = 4096
 TEMPERATURE    = 0.10
 MAX_RETRIES    = 2
