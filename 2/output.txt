@@ -1,0 +1,22 @@
+Kya banana hai?
+>>> build a website for my kirana store
+
+[PHASE 0] Planning...
+
+   [Call 1/8] Generating plan...
+   [Call 2/8] Validating plan...
+   ✅ Plan: 9 sections | 51 classes | 7 images
+   ✅  Saved: ./plan.json  (7.3 KB)
+
+[IMAGES] Picsum placeholders generating for 7 images...
+
+   ✅  hero_bg: https://picsum.photos/seed/hero_bg/1920/1080
+Traceback (most recent call last):
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 822, in <module>
+    main()
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 790, in main
+    images = generate_placeholders(plan.get("image_queries", []))
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 63, in generate_placeholders
+    key = q["key"]
+KeyError: 'key'
+PS C:\Users\bhavi\Downloads\Coding Payground\Website Builder> 

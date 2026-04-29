@@ -1,0 +1,76 @@
+PS C:\Users\bhavi\Downloads\Coding Payground\Website Builder> python -u "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py"
+=================================================================
+   WebGen v3 — Advanced Website Builder
+   Phases: Plan → Validate → Images → HTML → CSS → JS
+   Post-processing: CSS dedup + JS auto-fix
+   Images: Free picsum.photos placeholders (no API key)
+=================================================================
+
+Kya banana hai?
+>>> build a website for indian kulcha stall
+
+[PHASE 0] Planning...
+
+   [Call 1/8] Generating plan...
+   [Call 2/8] Validating plan...
+   ✅ Plan: 10 sections | 60 classes | 6 images
+   ✅  Saved: ./plan.json  (7.7 KB)
+
+[IMAGES] Picsum placeholders generating for 6 images...
+
+   ✅  hero_bg: https://picsum.photos/seed/hero_bg/1920/1080
+   ✅  about_img: https://picsum.photos/seed/about_img/800/600
+   ✅  menu_kulcha: https://picsum.photos/seed/menu_kulcha/800/500
+   ✅  gallery_photo: https://picsum.photos/seed/gallery_photo/600/400
+   ✅  customer_review: https://picsum.photos/seed/customer_review/800/500
+   ✅  special_offer: https://picsum.photos/seed/special_offer/600/400
+
+[PHASE 2] HTML generating...
+
+   [HTML 1/2] Part 1...
+   [HTML 2/2] Part 2...
+   ✅  Saved: ./index.html  (20.8 KB)
+
+[PHASE 3] CSS generating...
+
+   [CSS 1/2] Part 1...
+   [CSS 2/2] Part 2...
+   [CSS Post] Deduplicating selectors...
+   [CSS Post] Removed 4 duplicate selector blocks ✅
+   ✅  Saved: ./style.css  (12.5 KB)
+
+[PHASE 4] JS generating...
+
+   [JS 1/2] Part 1...
+   [JS 2/2] Part 2...
+   [JS Post] Fixing JS...
+   [JS Post] Done ✅
+   ✅  Saved: ./script.js  (11.5 KB)
+
+── Quality Check ────────────────────────────────────────────
+   ❌  HTML has DOCTYPE
+   ✅  HTML closed
+   ✅  HTML → style.css
+   ✅  HTML → script.js
+   ✅  CSS :root vars
+   ✅  CSS responsive
+   ✅  CSS scroll reveal
+   ✅  JS nav toggle
+   ✅  JS smooth scroll
+   ✅  JS scroll reveal
+   ✅  JS sticky nav
+   ⚠️  HTML missing 1 classes: filter-button
+   ⚠️  JS still has duplicate consts: orderData, items, formData, imgEl
+
+   Score: 70/100  ⚠️  3 issue(s)
+─────────────────────────────────────────────────────────────
+
+=================================================================
+  WebGen v3 — Complete!
+  Files:      index.html  style.css  script.js  plan.json
+  Images:     6 picsum placeholders (swap with real photos later)
+  Quality:    70/100  (3 issues)
+  Next step:  Open index.html in browser
+=================================================================
+
+PS C:\Users\bhavi\Downloads\Coding Payground\Website Builder> 

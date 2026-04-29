@@ -1,0 +1,341 @@
+{
+  "title": "Kirana Store Website",
+  "theme": {
+    "mood": "earthy",
+    "primary": "#D35400",
+    "secondary": "#8B4513",
+    "accent": "#27AE60",
+    "background": "#FFF8E7",
+    "surface": "#FFFFFF",
+    "text": "#2C3E50",
+    "text_muted": "#7F8C8D",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta"
+      ],
+      "elements": [
+        "welcome text",
+        "store tagline",
+        "call to action button"
+      ],
+      "needs_image": true,
+      "image_query": "hero_bg"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About Us",
+      "classes": [
+        "about",
+        "about-content",
+        "about-image",
+        "about-text"
+      ],
+      "elements": [
+        "store description",
+        "about image",
+        "our story"
+      ],
+      "needs_image": true,
+      "image_query": "about_img"
+    },
+    {
+      "id": "products",
+      "tag": "section",
+      "name": "Products",
+      "classes": [
+        "products",
+        "product-grid",
+        "product-card",
+        "product-image",
+        "product-info",
+        "product-price"
+      ],
+      "elements": [
+        "product grid",
+        "product cards",
+        "product details"
+      ],
+      "needs_image": true,
+      "image_query": "product_img"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-form",
+        "contact-info",
+        "contact-map"
+      ],
+      "elements": [
+        "contact form",
+        "store details",
+        "map"
+      ],
+      "needs_image": true,
+      "image_query": "contact_map"
+    },
+    {
+      "id": "footer",
+      "tag": "footer",
+      "name": "Footer",
+      "classes": [
+        "footer",
+        "footer-content",
+        "footer-links",
+        "footer-bottom"
+      ],
+      "elements": [
+        "quick links",
+        "social icons",
+        "copyright"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "specials",
+      "tag": "section",
+      "name": "Specials",
+      "classes": [
+        "specials",
+        "specials-content",
+        "specials-grid",
+        "special-card",
+        "special-image",
+        "special-info",
+        "special-price"
+      ],
+      "elements": [
+        "special offers",
+        "special products",
+        "discount info"
+      ],
+      "needs_image": true,
+      "image_query": "special_offer"
+    },
+    {
+      "id": "categories",
+      "tag": "section",
+      "name": "Categories",
+      "classes": [
+        "categories",
+        "categories-content",
+        "categories-grid",
+        "category-card",
+        "category-image",
+        "category-name"
+      ],
+      "elements": [
+        "product categories",
+        "category navigation",
+        "category icons"
+      ],
+      "needs_image": true,
+      "image_query": "grocery_categories"
+    },
+    {
+      "id": "testimonials",
+      "tag": "section",
+      "name": "Testimonials",
+      "classes": [
+        "testimonials",
+        "testimonials-content",
+        "testimonial-grid",
+        "testimonial-card",
+        "testimonial-text",
+        "testimonial-author",
+        "testimonial-rating"
+      ],
+      "elements": [
+        "customer reviews",
+        "testimonial quotes",
+        "customer names"
+      ],
+      "needs_image": true,
+      "image_query": "customer_testimonials"
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "kirana store hero background with fresh vegetables and grains",
+      "used_in": "hero section"
+    },
+    {
+      "id": "about_img",
+      "query": "kirana store interior with shelves stocked",
+      "used_in": "about section"
+    },
+    {
+      "id": "product_img",
+      "query": "assorted grocery products for kirana store",
+      "used_in": "products section"
+    },
+    {
+      "id": "contact_map",
+      "query": "map location for kirana store",
+      "used_in": "contact section"
+    },
+    {
+      "id": "special_offer",
+      "query": "special offer banner for kirana store",
+      "used_in": "specials section"
+    },
+    {
+      "id": "grocery_categories",
+      "query": "grocery store categories display",
+      "used_in": "categories section"
+    },
+    {
+      "id": "customer_testimonials",
+      "query": "happy customers of kirana store",
+      "used_in": "testimonials section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "about",
+    "about-content",
+    "about-image",
+    "about-text",
+    "products",
+    "product-grid",
+    "product-card",
+    "product-image",
+    "product-info",
+    "product-price",
+    "contact",
+    "contact-form",
+    "contact-info",
+    "contact-map",
+    "footer",
+    "footer-content",
+    "footer-links",
+    "footer-bottom",
+    "specials",
+    "specials-content",
+    "specials-grid",
+    "special-card",
+    "special-image",
+    "special-info",
+    "special-price",
+    "categories",
+    "categories-content",
+    "categories-grid",
+    "category-card",
+    "category-image",
+    "category-name",
+    "testimonials",
+    "testimonials-content",
+    "testimonial-grid",
+    "testimonial-card",
+    "testimonial-text",
+    "testimonial-author",
+    "testimonial-rating"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "products",
+    "contact",
+    "footer",
+    "specials",
+    "categories",
+    "testimonials"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle nav-open on .nav-links",
+      "guard": "null-check"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "scrollIntoView smooth",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".about-text",
+      "action": "IntersectionObserver adds visible",
+      "guard": "feature detect"
+    },
+    {
+      "name": "Sticky Nav",
+      "selector": "window",
+      "action": "add scrolled to #nav on scrollY>50",
+      "guard": "none"
+    },
+    {
+      "name": "Product Filter",
+      "selector": ".product-grid",
+      "action": "filter products by category",
+      "guard": "feature detect"
+    },
+    {
+      "name": "Contact Form Submit",
+      "selector": ".contact-form",
+      "action": "validate and submit form",
+      "guard": "form validation"
+    },
+    {
+      "name": "Image Lazy Load",
+      "selector": ".product-image",
+      "action": "load image on viewport entry",
+      "guard": "intersection observer"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirana Store - Your Local Groceries</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ═══ SECTION ═══ -->
+    <nav id="nav" class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">Kirana Mart</span>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#categories" class="nav-link">Categories</a>
+                <a href="#specials" class="nav-link">Specials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <div class="nav-toggle-bar"></div>
+                <div class="nav-toggle-bar"></div>
+                <div class="nav-toggle-bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Kirana Mart</h1>
+            <p class="hero-subtitle">Fresh produce, daily essentials, and more at your doorstep.</p>
+            <button class="hero-cta">Shop Now</button>
+        </div>
+        <div class="hero-image" style="background-image: url('https://picsum.photos/seed/hero_bg/1920/1080');"></div>
+    </section>
+
+    <section id="about" class="reveal">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>For over 20 years, Kirana Mart has been a cornerstone of our community, providing quality groceries and friendly service to our neighbors. We believe in supporting local farmers and bringing the freshest products to your table.</p>
+                <p><strong>Mission:</strong> To be the most trusted and convenient grocery store, offering a wide selection of fresh, high-quality products at fair prices.</p>
+            </div>
+            <div class="about-image" style="background-image: url('https://picsum.photos/seed/about_img/800/600');"></div>
+        </div>
+    </section>
+
+    <section id="products" class="reveal">
+        <div class="products-content">
+            <h2>Popular Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://picsum.photos/seed/product_img/400/400');"></div>
+                    <div class="product-info">
+                        <h3>Fresh Apples</h3>
+                        <p class="price">$2.99/lb</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://picsum.photos/seed/product_img/400/400');"></div>
+                    <div class="product-info">
+                        <h3>Organic Milk</h3>
+                        <p class="price">$3.49/gal</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://picsum.photos/seed/product_img/400/400');"></div>
+                    <div class="product-info">
+                        <h3>Whole Wheat Bread</h3>
+                        <p class="price">$2.79/loaf</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://picsum.photos/seed/product_img/400/400');"></div>
+                    <div class="product-info">
+                        <h3>Fresh Salmon</h3>
+                        <p class="price">$12.99/lb</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://picsum.photos/seed/product_img/400/400');"></div>
+                    <div class="product-info">
+                        <h3>Avocado Pack</h3>
+                        <p class="price">$5.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://picsum.photos/seed/product_img/400/400');"></div>
+                    <div class="product-info">
+                        <h3>Greek Yogurt</h3>
+                        <p class="price">$4.99/pack</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="reveal">
+        <div class="gallery-grid">
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/seed/gallery_img/600/400');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/seed/gallery_img/600/400');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/seed/gallery_img/600/400');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/seed/gallery_img/600/400');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/seed/gallery_img/600/400');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/seed/gallery_img/600/400');"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <div class="contact-content">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" class="form-input">
+                    <input type="email" placeholder="Your Email" class="form-input">
+                    <textarea placeholder="Your Message" class="form-input"></textarea>
+                    <button type="submit" class="form-button">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <p><strong>Address:</strong> 123 Main St, Anytown, USA</p>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <p><strong>Email:</strong> info@kiranamart.com</p>
+                <p><strong>Hours:</strong> Mon-Sat 8AM-9PM, Sun 9AM-7PM</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">t</a>
+                    <a href="#" class="social-icon">in</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">© 2024 Kirana Mart. All rights reserved.</p>
+    </footer>
+
+    <section id="specials" class="reveal">
+        <div class="specials-content">
+            <h2>Today's Specials</h2>
+            <div class="special-item">
+                <div class="special-price">50% OFF</div>
+                <h3>Fresh Berries</h3>
+                <p>Limited time offer on all seasonal berries.</p>
+            </div>
+            <div class="special-item">
+                <div class="special-price">$1.99</div>
+                <h3>Bananas</h3>
+                <p>Buy one, get one free on all bananas.</p>
+            </div>
+            <div class="special-item">
+                <div class="special-price">20% OFF</div>
+                <h3>Organic Vegetables</h3>
+                <p>Fresh organic veggies at a great discount.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="reveal">
+        <div class="categories-content">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">🥬</div>
+                    <h3>Vegetables</h3>
+                    <p>Fresh and organic vegetables</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍎</div>
+                    <h3>Fruits</h3>
+                    <p>Seasonal and imported fruits</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🥛</div>
+                    <h3>Dairy</h3>
+                    <p>Milk, cheese, and yogurt</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍞</div>
+                    <h3>Bakery</h3>
+                    <p>Fresh bread and pastries</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🥩</div>
+                    <h3>Meat & Seafood</h3>
+                    <p>Fresh cuts and seafood</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🥤</div>
+                    <h3>Beverages</h3>
+                    <p>Juices, sodas, and more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="delivery" class="reveal">
+        <div class="delivery-content">
+            <div class="delivery-info">
+                <h2>Delivery Information</h2>
+                <p>We offer convenient delivery to all local neighborhoods.</p>
+                <div class="delivery-zones">
+                    <h3>Delivery Zones:</h3>
+                    <ul>
+                        <li>Zone A: $3.99 (30-40 min)</li>
+                        <li>Zone B: $4.99 (40-50 min)</li>
+                        <li>Zone C: $5.99 (50-60 min)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="delivery-map" style="background-image: url('https://picsum.photos/seed/delivery_map/800/500');"></div>
+        </div>
+    </section>
+
+    <section id="hours" class="reveal">
+        <div class="hours-content">
+            <h2>Store Hours</h2>
+            <div class="hours-list">
+                <div class="hours-day">
+                    <p><strong>Monday - Saturday:</strong> 8:00 AM - 9:00 PM</p>
+                </div>
+                <div class="hours-day">
+                    <p><strong>Sunday:</strong> 9:00 AM - 7:00 PM</p>
+                </div>
+                <div class="hours-day">
+                    <p><strong>Holidays:</strong> Check website for special hours</p>
+                </div>
+            </div>
+            <p><strong>Emergency Contact:</strong> (555) 987-6543</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="reveal">
+        <div class="testimonials-content">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">"Kirana Mart is my go-to store for fresh produce. The quality is always excellent!"</div>
+                    <div class="testimonial-author">- Sarah M.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">"Great prices and friendly staff. They always have what I need."</div>
+                    <div class="testimonial-author">- John D.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">"The delivery service is so convenient. I love shopping here!"</div>
+                    <div class="testimonial-author">- Emily R.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="search" class="reveal">
+        <div class="search-content">
+            <h2>Search Products</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for fruits, vegetables, dairy, and more...">
+                <div class="search-results">
+                    <div class="search-result">Fresh Apples</div>
+                    <div class="search-result">Organic Milk</div>
+                    <div class="search-result">Whole Wheat Bread</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

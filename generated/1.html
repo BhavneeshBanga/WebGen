@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirana Store - Your Neighborhood Grocery Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav id="nav">
+    <div class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">Kirana Store</div>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#delivery" class="nav-link">Delivery</a></li>
+          <li><a href="#offers" class="nav-link">Offers</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero" class="reveal">
+    <div class="hero">
+      <div class="hero-bg">
+        <img src="images/hero_bg.jpg" alt="Fresh produce at Kirana Store">
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Fresh Groceries, Right at Your Doorstep</h1>
+        <p class="hero-subtitle">Your trusted neighborhood store for daily essentials and fresh produce.</p>
+        <button class="cta-button">Shop Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about" class="reveal">
+    <div class="about">
+      <div class="about-content">
+        <h2 class="section-title">About Our Store</h2>
+        <p class="about-text">Since 2010, we've been serving our community with the freshest produce and highest quality groceries. We pride ourselves on supporting local farmers and bringing the best to your table.</p>
+        <div class="about-image">
+          <img src="images/about_img.jpg" alt="Kirana Store Interior">
+        </div>
+        <div class="about-details">
+          <ul class="list">
+            <li class="of">✓ Fresh Daily Produce</li>
+            <li class="of">✓ Quality Assured Products</li>
+            <li class="of">✓ Home Delivery Service</li>
+            <li class="of">✓ Competitive Prices</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PRODUCTS ═══ -->
+  <section id="products" class="reveal">
+    <div class="products">
+      <h2 class="section-title">Our Products</h2>
+      <div class="filter-bar">
+        <button class="filter-btn">All</button>
+        <button class="filter-btn">Vegetables</button>
+        <button class="filter-btn">Fruits</button>
+        <button class="filter-btn">Dairy</button>
+        <button class="filter-btn">Grains</button>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/products_img.png" alt="Tomatoes">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Fresh Tomatoes</h3>
+            <p class="product-price">$2.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/products_img.png" alt="Potatoes">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Organic Potatoes</h3>
+            <p class="product-price">$3.49</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/products_img.png" alt="Milk">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Fresh Milk</h3>
+            <p class="product-price">$4.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DELIVERY ═══ -->
+  <section id="delivery" class="reveal">
+    <div class="delivery">
+      <div class="delivery-content">
+        <h2 class="section-title">Delivery Information</h2>
+        <div class="delivery-info">
+          <div class="delivery-map">
+            <img src="images/delivery_map.jpg" alt="Delivery Zones Map">
+          </div>
+          <div class="delivery-hours">
+            <h3>Delivery Hours</h3>
+            <p>Monday - Saturday: 7:00 AM - 9:00 PM</p>
+            <p>Sunday: 8:00 AM - 7:00 PM</p>
+          </div>
+          <div class="delivery-charges">
+            <p><strong>Delivery Fee:</strong> $3.99 for orders under $50</p>
+            <p><strong>Free Delivery:</strong> On orders $50 and above</p>
+          </div>
+          <div class="contact-delivery">
+            <p>Call us for delivery inquiries: (555) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ OFFERS ═══ -->
+  <section id="offers" class="reveal">
+    <div class="offers">
+      <h2 class="section-title">Special Offers</h2>
+      <div class="offers-grid">
+        <div class="offer-card">
+          <h3 class="offer-title">Fresh Produce Sale</h3>
+          <p class="offer-price">30% OFF</p>
+          <p class="offer-expiry">Valid until Dec 31</p>
+        </div>
+        <div class="offer-card">
+          <h3 class="offer-title">Bulk Buy Discount</h3>
+          <p class="offer-price">15% OFF</p>
+          <p class="offer-expiry">Limited Time</p>
+        </div>
+        <div class="offer-card">
+          <h3 class="offer-title">First Order Special</h3>
+          <p class="offer-price">10% OFF</p>
+          <p class="offer-expiry">New Customers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact" class="reveal">
+    <div class="contact">
+      <div class="contact-content">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-info">
+          <div class="contact-details">
+            <h3>Visit Us</h3>
+            <p>123 Main Street, Downtown</p>
+            <p>Open Daily: 7:00 AM - 10:00 PM</p>
+          </div>
+          <div class="contact-details">
+            <h3>Call Us</h3>
+            <p>Phone: (555) 123-4567</p>
+            <p>Toll-Free: 1-800-GROCER</p>
+          </div>
+          <div class="contact-details">
+            <h3>Email Us</h3>
+            <p>info@kiranastore.com</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-input" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-input" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="form-button">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer id="footer">
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <p>&copy; 2024 Kirana Store. All rights reserved.</p>
+          <p>Your neighborhood grocery partner</p>
+        </div>
+        <div class="footer-social">
+          <span class="social-icon">📘</span>
+          <span class="social-icon">📷</span>
+          <span class="social-icon">🐦</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

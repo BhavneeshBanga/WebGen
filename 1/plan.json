@@ -1,0 +1,333 @@
+{
+  "title": "Kirana Store Website",
+  "theme": {
+    "mood": "professional",
+    "primary": "#E67E22",
+    "secondary": "#27AE60",
+    "accent": "#F39C12",
+    "background": "#FFF8F3",
+    "surface": "#FFFFFF",
+    "text": "#2C3E50",
+    "text_muted": "#7F8C8D",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta",
+        "cta-button"
+      ],
+      "elements": [
+        "headline",
+        "subheadline",
+        "call-to-action button"
+      ],
+      "needs_image": true,
+      "image_query": "colorful kirana store shelves with Indian spices and grains"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About",
+      "classes": [
+        "about",
+        "about-content",
+        "about-text",
+        "about-image",
+        "image-container"
+      ],
+      "elements": [
+        "about text",
+        "store image"
+      ],
+      "needs_image": true,
+      "image_query": "local Indian kirana store owner with customers"
+    },
+    {
+      "id": "products",
+      "tag": "section",
+      "name": "Products",
+      "classes": [
+        "products",
+        "products-grid",
+        "product-card",
+        "product-image",
+        "product-info",
+        "product-name",
+        "product-price",
+        "product-category"
+      ],
+      "elements": [
+        "product cards",
+        "product images",
+        "product names",
+        "prices"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "daily-specials",
+      "tag": "section",
+      "name": "Daily Specials",
+      "classes": [
+        "daily-specials",
+        "specials-container",
+        "special-item",
+        "special-image",
+        "special-info",
+        "special-title",
+        "special-price",
+        "special-description"
+      ],
+      "elements": [
+        "special offers",
+        "discounted items",
+        "limited time deals"
+      ],
+      "needs_image": true,
+      "image_query": "Indian daily special offers with discount tags on groceries"
+    },
+    {
+      "id": "delivery",
+      "tag": "section",
+      "name": "Delivery Information",
+      "classes": [
+        "delivery",
+        "delivery-content",
+        "delivery-info",
+        "delivery-map",
+        "delivery-hours",
+        "delivery-contact"
+      ],
+      "elements": [
+        "delivery areas",
+        "delivery hours",
+        "contact information"
+      ],
+      "needs_image": true,
+      "image_query": "Indian delivery person with grocery bags on bicycle"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-content",
+        "contact-form",
+        "form-group",
+        "form-input",
+        "form-label",
+        "submit-button",
+        "contact-info",
+        "address",
+        "phone"
+      ],
+      "elements": [
+        "contact form",
+        "address",
+        "phone number"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "footer",
+      "tag": "footer",
+      "name": "Footer",
+      "classes": [
+        "footer",
+        "footer-content",
+        "footer-text",
+        "social-links",
+        "social-link"
+      ],
+      "elements": [
+        "footer text",
+        "social media icons"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "colorful kirana store shelves with Indian spices and grains",
+      "used_in": "hero background"
+    },
+    {
+      "key": "about_img",
+      "query": "local Indian kirana store owner with customers",
+      "used_in": "about section"
+    },
+    {
+      "key": "product_img",
+      "query": "assorted Indian groceries in kirana store",
+      "used_in": "products section"
+    },
+    {
+      "key": "daily_special_img",
+      "query": "Indian daily special offers with discount tags on groceries",
+      "used_in": "daily specials section"
+    },
+    {
+      "key": "delivery_img",
+      "query": "Indian delivery person with grocery bags on bicycle",
+      "used_in": "delivery section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "cta-button",
+    "about",
+    "about-content",
+    "about-text",
+    "about-image",
+    "image-container",
+    "products",
+    "products-grid",
+    "product-card",
+    "product-image",
+    "product-info",
+    "product-name",
+    "product-price",
+    "product-category",
+    "daily-specials",
+    "specials-container",
+    "special-item",
+    "special-image",
+    "special-info",
+    "special-title",
+    "special-price",
+    "special-description",
+    "delivery",
+    "delivery-content",
+    "delivery-info",
+    "delivery-map",
+    "delivery-hours",
+    "delivery-contact",
+    "contact",
+    "contact-content",
+    "contact-form",
+    "form-group",
+    "form-input",
+    "form-label",
+    "submit-button",
+    "contact-info",
+    "address",
+    "phone",
+    "footer",
+    "footer-content",
+    "footer-text",
+    "social-links",
+    "social-link",
+    "reveal",
+    "add-to-cart"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "products",
+    "daily-specials",
+    "delivery",
+    "contact",
+    "footer"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle class 'nav-open' on .nav-links",
+      "guard": "null-check before addEventListener"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "preventDefault, scrollIntoView({behavior:'smooth'})",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".reveal",
+      "action": "IntersectionObserver adds class 'visible' when 20% in view",
+      "guard": "check IntersectionObserver support"
+    },
+    {
+      "name": "Sticky Nav Shadow",
+      "selector": "window scroll",
+      "action": "add class 'scrolled' to nav when scrollY > 50",
+      "guard": "none needed"
+    },
+    {
+      "name": "Product Filter",
+      "selector": ".product-category",
+      "action": "filter products by category when clicked",
+      "guard": "check if products exist"
+    },
+    {
+      "name": "Cart Counter",
+      "selector": ".add-to-cart",
+      "action": "increment cart count and update UI",
+      "guard": "initialize cart state"
+    },
+    {
+      "name": "Special Filter",
+      "selector": ".special-item",
+      "action": "highlight special items when hovered",
+      "guard": "check if specials exist"
+    },
+    {
+      "name": "Delivery Hours",
+      "selector": ".delivery-hours",
+      "action": "display current delivery status",
+      "guard": "check delivery data"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+}

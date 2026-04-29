@@ -1,0 +1,367 @@
+{
+  "title": "Indian Kulcha Stall Website",
+  "theme": {
+    "mood": "vibrant",
+    "primary": "#FF6B35",
+    "secondary": "#6B4423",
+    "accent": "#00A859",
+    "background": "#FFF8E1",
+    "surface": "#F5E6D3",
+    "text": "#2C1810",
+    "text_muted": "#5D4037",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero Section",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "cta-button"
+      ],
+      "elements": [
+        "kulcha showcase",
+        "stall tagline",
+        "order button"
+      ],
+      "needs_image": true,
+      "image_query": "hero_bg"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About Our Stall",
+      "classes": [
+        "about",
+        "about-content",
+        "about-text",
+        "about-image",
+        "about-stats"
+      ],
+      "elements": [
+        "stall story",
+        "owner photo",
+        "awards/milestones"
+      ],
+      "needs_image": true,
+      "image_query": "about_img"
+    },
+    {
+      "id": "menu",
+      "tag": "section",
+      "name": "Our Kulchas",
+      "classes": [
+        "menu",
+        "menu-container",
+        "menu-grid",
+        "menu-item",
+        "menu-item-image",
+        "menu-item-details",
+        "menu-price"
+      ],
+      "elements": [
+        "kulcha varieties",
+        "descriptions",
+        "prices"
+      ],
+      "needs_image": true,
+      "image_query": "menu_kulcha"
+    },
+    {
+      "id": "gallery",
+      "tag": "section",
+      "name": "Gallery",
+      "classes": [
+        "gallery",
+        "gallery-grid",
+        "gallery-item",
+        "gallery-lightbox"
+      ],
+      "elements": [
+        "kulcha photos",
+        "stall interior",
+        "customer moments"
+      ],
+      "needs_image": true,
+      "image_query": "gallery_photo"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Visit Us",
+      "classes": [
+        "contact",
+        "contact-content",
+        "contact-info",
+        "contact-map",
+        "contact-hours",
+        "contact-button"
+      ],
+      "elements": [
+        "address",
+        "map",
+        "opening hours",
+        "phone number"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "testimonials",
+      "tag": "section",
+      "name": "Customer Reviews",
+      "classes": [
+        "testimonials",
+        "testimonials-container",
+        "testimonial-card",
+        "testimonial-text",
+        "testimonial-author",
+        "testimonial-rating"
+      ],
+      "elements": [
+        "customer quotes",
+        "customer photos",
+        "rating stars"
+      ],
+      "needs_image": true,
+      "image_query": "customer_review"
+    },
+    {
+      "id": "offers",
+      "tag": "section",
+      "name": "Special Offers",
+      "classes": [
+        "offers",
+        "offer-container",
+        "offer-card",
+        "offer-title",
+        "offer-description",
+        "offer-expiry"
+      ],
+      "elements": [
+        "special deals",
+        "discount percentages",
+        "validity period"
+      ],
+      "needs_image": true,
+      "image_query": "special_offer"
+    },
+    {
+      "id": "order",
+      "tag": "section",
+      "name": "Order Online",
+      "classes": [
+        "order",
+        "order-container",
+        "order-form",
+        "order-item",
+        "order-quantity",
+        "order-submit"
+      ],
+      "elements": [
+        "order form",
+        "quantity selector",
+        "delivery options"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "social",
+      "tag": "section",
+      "name": "Follow Us",
+      "classes": [
+        "social",
+        "social-container",
+        "social-links",
+        "social-icon",
+        "social-link"
+      ],
+      "elements": [
+        "social media icons",
+        "profile links"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "colorful Indian street food stall with steaming kulchas",
+      "used_in": "hero section"
+    },
+    {
+      "key": "about_img",
+      "query": "traditional Indian kulcha making process",
+      "used_in": "about section"
+    },
+    {
+      "key": "menu_kulcha",
+      "query": "various types of Indian kulcha breads",
+      "used_in": "menu section"
+    },
+    {
+      "key": "gallery_photo",
+      "query": "delicious Indian kulcha platter",
+      "used_in": "gallery section"
+    },
+    {
+      "key": "customer_review",
+      "query": "happy customer enjoying Indian kulcha",
+      "used_in": "testimonials section"
+    },
+    {
+      "key": "special_offer",
+      "query": "Indian kulcha special offer banner",
+      "used_in": "offers section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "cta-button",
+    "about",
+    "about-content",
+    "about-text",
+    "about-image",
+    "about-stats",
+    "menu",
+    "menu-container",
+    "menu-grid",
+    "menu-item",
+    "menu-item-image",
+    "menu-item-details",
+    "menu-price",
+    "gallery",
+    "gallery-grid",
+    "gallery-item",
+    "gallery-lightbox",
+    "contact",
+    "contact-content",
+    "contact-info",
+    "contact-map",
+    "contact-hours",
+    "contact-button",
+    "testimonials",
+    "testimonials-container",
+    "testimonial-card",
+    "testimonial-text",
+    "testimonial-author",
+    "testimonial-rating",
+    "offers",
+    "offer-container",
+    "offer-card",
+    "offer-title",
+    "offer-description",
+    "offer-expiry",
+    "order",
+    "order-container",
+    "order-form",
+    "order-item",
+    "order-quantity",
+    "order-submit",
+    "social",
+    "social-container",
+    "social-links",
+    "social-icon",
+    "social-link",
+    "reveal",
+    "filter-button"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "menu",
+    "gallery",
+    "contact",
+    "testimonials",
+    "offers",
+    "order",
+    "social"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle nav-open on .nav-links",
+      "guard": "null-check"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "scrollIntoView smooth",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".reveal",
+      "action": "IntersectionObserver adds visible",
+      "guard": "feature detect"
+    },
+    {
+      "name": "Sticky Nav",
+      "selector": "window",
+      "action": "add scrolled to #nav on scrollY>50",
+      "guard": "none"
+    },
+    {
+      "name": "Gallery Lightbox",
+      "selector": ".gallery-item",
+      "action": "open lightbox on click",
+      "guard": "null-check"
+    },
+    {
+      "name": "Menu Filter",
+      "selector": ".filter-button",
+      "action": "filter menu items by type",
+      "guard": "null-check"
+    },
+    {
+      "name": "Order Form Submit",
+      "selector": ".order-submit",
+      "action": "validate and submit form",
+      "guard": "null-check"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+}

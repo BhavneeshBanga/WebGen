@@ -1,0 +1,380 @@
+{
+  "title": "Momos Stall - Delicious Steamed & Fried Dumplings",
+  "theme": {
+    "mood": "warm",
+    "primary": "#FF6B35",
+    "secondary": "#FFF8E1",
+    "accent": "#52B788",
+    "background": "#FFF8E1",
+    "surface": "#FFFFFF",
+    "text": "#2C1810",
+    "text_muted": "#6B5B45",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta"
+      ],
+      "elements": [
+        "hero heading",
+        "hero description",
+        "cta button"
+      ],
+      "needs_image": true,
+      "image_query": "steaming hot momos with chutney"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About Us",
+      "classes": [
+        "about",
+        "about-content",
+        "about-image",
+        "about-text"
+      ],
+      "elements": [
+        "about heading",
+        "story text",
+        "stall photo"
+      ],
+      "needs_image": true,
+      "image_query": "momos stall interior"
+    },
+    {
+      "id": "menu",
+      "tag": "section",
+      "name": "Menu",
+      "classes": [
+        "menu",
+        "menu-grid",
+        "menu-item",
+        "menu-price",
+        "menu-title"
+      ],
+      "elements": [
+        "menu heading",
+        "steamed momos",
+        "fried momos",
+        "special momos"
+      ],
+      "needs_image": true,
+      "image_query": "menu items with prices"
+    },
+    {
+      "id": "gallery",
+      "tag": "section",
+      "name": "Gallery",
+      "classes": [
+        "gallery",
+        "gallery-grid",
+        "gallery-item",
+        "gallery-title"
+      ],
+      "elements": [
+        "gallery heading",
+        "customer photos",
+        "food photos"
+      ],
+      "needs_image": true,
+      "image_query": "happy customers eating momos"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-info",
+        "contact-form",
+        "contact-title"
+      ],
+      "elements": [
+        "contact heading",
+        "address",
+        "phone",
+        "form fields"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hours",
+      "tag": "section",
+      "name": "Opening Hours",
+      "classes": [
+        "hours",
+        "hours-content",
+        "hours-list",
+        "hours-day",
+        "hours-time"
+      ],
+      "elements": [
+        "hours heading",
+        "day labels",
+        "time ranges"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "location",
+      "tag": "section",
+      "name": "Location",
+      "classes": [
+        "location",
+        "location-content",
+        "location-map",
+        "location-info",
+        "location-address"
+      ],
+      "elements": [
+        "location heading",
+        "map embed",
+        "address details"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "testimonials",
+      "tag": "section",
+      "name": "Testimonials",
+      "classes": [
+        "testimonials",
+        "testimonials-content",
+        "testimonials-grid",
+        "testimonial-card",
+        "testimonial-text",
+        "testimonial-author",
+        "testimonial-rating"
+      ],
+      "elements": [
+        "testimonials heading",
+        "customer quotes",
+        "ratings stars"
+      ],
+      "needs_image": true,
+      "image_query": "happy customers eating momos"
+    },
+    {
+      "id": "order",
+      "tag": "section",
+      "name": "Order Online",
+      "classes": [
+        "order",
+        "order-content",
+        "order-form",
+        "order-button",
+        "order-summary"
+      ],
+      "elements": [
+        "order heading",
+        "order form",
+        "checkout button"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "social",
+      "tag": "section",
+      "name": "Follow Us",
+      "classes": [
+        "social",
+        "social-content",
+        "social-links",
+        "social-icon",
+        "social-link"
+      ],
+      "elements": [
+        "social heading",
+        "social media icons"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "steaming hot momos with chutney",
+      "used_in": "hero section"
+    },
+    {
+      "key": "about_img",
+      "query": "momos stall interior",
+      "used_in": "about section"
+    },
+    {
+      "key": "menu_img",
+      "query": "menu items with prices",
+      "used_in": "menu section"
+    },
+    {
+      "key": "gallery_img",
+      "query": "happy customers eating momos",
+      "used_in": "gallery section"
+    },
+    {
+      "key": "testimonials_img",
+      "query": "happy customers eating momos",
+      "used_in": "testimonials section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "about",
+    "about-content",
+    "about-image",
+    "about-text",
+    "menu",
+    "menu-grid",
+    "menu-item",
+    "menu-price",
+    "menu-title",
+    "gallery",
+    "gallery-grid",
+    "gallery-item",
+    "gallery-title",
+    "contact",
+    "contact-info",
+    "contact-form",
+    "contact-title",
+    "hours",
+    "hours-content",
+    "hours-list",
+    "hours-day",
+    "hours-time",
+    "location",
+    "location-content",
+    "location-map",
+    "location-info",
+    "location-address",
+    "testimonials",
+    "testimonials-content",
+    "testimonials-grid",
+    "testimonial-card",
+    "testimonial-text",
+    "testimonial-author",
+    "testimonial-rating",
+    "order",
+    "order-content",
+    "order-form",
+    "order-button",
+    "order-summary",
+    "social",
+    "social-content",
+    "social-links",
+    "social-icon",
+    "social-link"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "menu",
+    "gallery",
+    "contact",
+    "hours",
+    "location",
+    "testimonials",
+    "order",
+    "social"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle nav-open on .nav-links",
+      "guard": "null-check"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "scrollIntoView smooth",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".reveal",
+      "action": "IntersectionObserver adds visible",
+      "guard": "feature detect"
+    },
+    {
+      "name": "Sticky Nav",
+      "selector": "window",
+      "action": "add scrolled to #nav on scrollY>50",
+      "guard": "none"
+    },
+    {
+      "name": "Gallery Carousel",
+      "selector": ".gallery-item",
+      "action": "cycle through images with controls",
+      "guard": "touch support"
+    },
+    {
+      "name": "Contact Form Submit",
+      "selector": ".contact-form",
+      "action": "validate and send data",
+      "guard": "email validation"
+    },
+    {
+      "name": "Order Form Submit",
+      "selector": ".order-form",
+      "action": "validate and process order",
+      "guard": "form validation"
+    },
+    {
+      "name": "Map Load",
+      "selector": ".location-map",
+      "action": "initialize Google Maps",
+      "guard": "google maps API"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+}

@@ -1,0 +1,217 @@
+{
+  "title": "Fresh Kirana Store - Your Neighborhood Grocery",
+  "theme": {
+    "mood": "warm",
+    "primary_color": "#FF6B35",
+    "secondary_color": "#F7931E",
+    "accent_color": "#06FFA5",
+    "background_color": "#FFF8E1",
+    "text_color": "#2D3436",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "name": "Navigation",
+      "html_tag": "nav",
+      "classes": [
+        "navbar",
+        "navbar-container",
+        "navbar-logo",
+        "navbar-menu",
+        "navbar-item",
+        "navbar-toggle"
+      ],
+      "purpose": "sticky top navigation with logo and menu items"
+    },
+    {
+      "id": "hero",
+      "name": "Hero Section",
+      "html_tag": "section",
+      "classes": [
+        "hero",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta"
+      ],
+      "purpose": "Welcome banner with store tagline and call-to-action"
+    },
+    {
+      "id": "about",
+      "name": "About Section",
+      "html_tag": "section",
+      "classes": [
+        "about",
+        "about-container",
+        "about-text",
+        "about-image"
+      ],
+      "purpose": "Tell customers about the store's history and values"
+    },
+    {
+      "id": "products",
+      "name": "Products Section",
+      "html_tag": "section",
+      "classes": [
+        "products",
+        "products-grid",
+        "product-card",
+        "product-image",
+        "product-info",
+        "product-title",
+        "product-price",
+        "product-category",
+        "category-filter"
+      ],
+      "purpose": "Display products in grid layout with filtering options"
+    },
+    {
+      "id": "services",
+      "name": "Services Section",
+      "html_tag": "section",
+      "classes": [
+        "services",
+        "services-grid",
+        "service-card",
+        "service-icon",
+        "service-title",
+        "service-description"
+      ],
+      "purpose": "Show services like home delivery, credit facility, etc."
+    },
+    {
+      "id": "contact",
+      "name": "Contact Section",
+      "html_tag": "section",
+      "classes": [
+        "contact",
+        "contact-container",
+        "contact-info",
+        "contact-details",
+        "contact-form",
+        "form-group",
+        "form-input",
+        "form-button",
+        "contact-map"
+      ],
+      "purpose": "Display contact information and a contact form"
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "html_tag": "footer",
+      "classes": [
+        "footer",
+        "footer-content",
+        "footer-text",
+        "footer-social",
+        "social-link",
+        "footer-bottom"
+      ],
+      "purpose": "Bottom section with store info and social links"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "navbar-container",
+    "navbar-logo",
+    "navbar-menu",
+    "navbar-item",
+    "navbar-toggle",
+    "hero",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "about",
+    "about-container",
+    "about-text",
+    "about-image",
+    "products",
+    "products-grid",
+    "product-card",
+    "product-image",
+    "product-info",
+    "product-title",
+    "product-price",
+    "product-category",
+    "category-filter",
+    "services",
+    "services-grid",
+    "service-card",
+    "service-icon",
+    "service-title",
+    "service-description",
+    "contact",
+    "contact-container",
+    "contact-info",
+    "contact-details",
+    "contact-form",
+    "form-group",
+    "form-input",
+    "form-button",
+    "contact-map",
+    "footer",
+    "footer-content",
+    "footer-text",
+    "footer-social",
+    "social-link",
+    "footer-bottom"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "products",
+    "services",
+    "contact",
+    "footer"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile nav toggle",
+      "targets": [
+        "navbar-toggle",
+        "navbar-menu"
+      ],
+      "event": "click",
+      "description": "Toggle .active class on navbar-menu when hamburger clicked"
+    },
+    {
+      "name": "Smooth scrolling",
+      "targets": [
+        "navbar-item"
+      ],
+      "event": "click",
+      "description": "Smooth scroll to corresponding section when nav item clicked"
+    },
+    {
+      "name": "Category filter",
+      "targets": [
+        "category-filter"
+      ],
+      "event": "click",
+      "description": "Filter products by category when filter button clicked"
+    },
+    {
+      "name": "Contact form submission",
+      "targets": [
+        "form-button",
+        "form-input"
+      ],
+      "event": "submit",
+      "description": "Validate form and show success message without backend"
+    },
+    {
+      "name": "Active nav highlighting",
+      "targets": [
+        "navbar-item"
+      ],
+      "event": "scroll",
+      "description": "Add .active class to nav item corresponding to visible section"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+}

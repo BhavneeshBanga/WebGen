@@ -1,0 +1,417 @@
+{
+  "title": "Kirana Store Website",
+  "theme": {
+    "mood": "warm",
+    "primary": "#D2691E",
+    "secondary": "#228B22",
+    "accent": "#FFD700",
+    "background": "#FFF8DC",
+    "surface": "#F5F5DC",
+    "text": "#3E2723",
+    "text_muted": "#616161",
+    "font_heading": "Montserrat",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero Banner",
+      "classes": [
+        "hero",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta"
+      ],
+      "elements": [
+        "welcome message",
+        "featured products",
+        "call to action button"
+      ],
+      "needs_image": true,
+      "image_query": "hero_bg"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About Us",
+      "classes": [
+        "about",
+        "about-content",
+        "about-text",
+        "about-image"
+      ],
+      "elements": [
+        "store story",
+        "mission statement",
+        "store image"
+      ],
+      "needs_image": true,
+      "image_query": "about_img"
+    },
+    {
+      "id": "products",
+      "tag": "section",
+      "name": "Products",
+      "classes": [
+        "products",
+        "product-grid",
+        "product-card",
+        "product-image",
+        "product-info"
+      ],
+      "elements": [
+        "product grid",
+        "product cards",
+        "price tags",
+        "add to cart buttons"
+      ],
+      "needs_image": true,
+      "image_query": "product_img"
+    },
+    {
+      "id": "gallery",
+      "tag": "section",
+      "name": "Gallery",
+      "classes": [
+        "gallery",
+        "gallery-grid",
+        "gallery-item"
+      ],
+      "elements": [
+        "image grid",
+        "store photos",
+        "product showcase"
+      ],
+      "needs_image": true,
+      "image_query": "gallery_img"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-form",
+        "contact-info"
+      ],
+      "elements": [
+        "contact form",
+        "address details",
+        "phone number",
+        "email"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "footer",
+      "tag": "footer",
+      "name": "Footer",
+      "classes": [
+        "footer",
+        "footer-content",
+        "footer-links"
+      ],
+      "elements": [
+        "footer links",
+        "social media icons",
+        "copyright text"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "specials",
+      "tag": "section",
+      "name": "Daily Specials",
+      "classes": [
+        "specials",
+        "specials-content",
+        "special-item",
+        "special-price"
+      ],
+      "elements": [
+        "special offers",
+        "discounted items",
+        "limited time deals"
+      ],
+      "needs_image": true,
+      "image_query": "specials_bg"
+    },
+    {
+      "id": "categories",
+      "tag": "section",
+      "name": "Product Categories",
+      "classes": [
+        "categories",
+        "category-grid",
+        "category-card",
+        "category-icon"
+      ],
+      "elements": [
+        "category grid",
+        "category cards",
+        "category icons",
+        "category links"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "delivery",
+      "tag": "section",
+      "name": "Delivery Information",
+      "classes": [
+        "delivery",
+        "delivery-content",
+        "delivery-info",
+        "delivery-map"
+      ],
+      "elements": [
+        "delivery zones",
+        "delivery charges",
+        "delivery time",
+        "delivery map"
+      ],
+      "needs_image": true,
+      "image_query": "delivery_map"
+    },
+    {
+      "id": "hours",
+      "tag": "section",
+      "name": "Store Hours",
+      "classes": [
+        "hours",
+        "hours-content",
+        "hours-list",
+        "hours-day"
+      ],
+      "elements": [
+        "store timings",
+        "holiday timings",
+        "emergency contact"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "testimonials",
+      "tag": "section",
+      "name": "Customer Reviews",
+      "classes": [
+        "testimonials",
+        "testimonial-grid",
+        "testimonial-card",
+        "testimonial-text",
+        "testimonial-author"
+      ],
+      "elements": [
+        "customer reviews",
+        "rating stars",
+        "customer photos",
+        "review text"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "search",
+      "tag": "section",
+      "name": "Search",
+      "classes": [
+        "search",
+        "search-container",
+        "search-input",
+        "search-results",
+        "search-result"
+      ],
+      "elements": [
+        "search bar",
+        "search suggestions",
+        "search results"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "warm kirana store hero background",
+      "used_in": "hero section"
+    },
+    {
+      "key": "about_img",
+      "query": "friendly kirana store interior",
+      "used_in": "about section"
+    },
+    {
+      "key": "product_img",
+      "query": "fresh grocery products display",
+      "used_in": "products section"
+    },
+    {
+      "key": "gallery_img",
+      "query": "kirana store shopping experience",
+      "used_in": "gallery section"
+    },
+    {
+      "key": "specials_bg",
+      "query": "kirana store special offers banner",
+      "used_in": "specials section"
+    },
+    {
+      "key": "delivery_map",
+      "query": "kirana store delivery area map",
+      "used_in": "delivery section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "about",
+    "about-content",
+    "about-text",
+    "about-image",
+    "products",
+    "product-grid",
+    "product-card",
+    "product-image",
+    "product-info",
+    "gallery",
+    "gallery-grid",
+    "gallery-item",
+    "contact",
+    "contact-form",
+    "contact-info",
+    "footer",
+    "footer-content",
+    "footer-links",
+    "specials",
+    "specials-content",
+    "special-item",
+    "special-price",
+    "categories",
+    "category-grid",
+    "category-card",
+    "category-icon",
+    "delivery",
+    "delivery-content",
+    "delivery-info",
+    "delivery-map",
+    "hours",
+    "hours-content",
+    "hours-list",
+    "hours-day",
+    "testimonials",
+    "testimonial-grid",
+    "testimonial-card",
+    "testimonial-text",
+    "testimonial-author",
+    "search",
+    "search-container",
+    "search-input",
+    "search-results",
+    "search-result"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "products",
+    "gallery",
+    "contact",
+    "footer",
+    "specials",
+    "categories",
+    "delivery",
+    "hours",
+    "testimonials",
+    "search"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle nav-open on .nav-links",
+      "guard": "null-check"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "scrollIntoView smooth",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".reveal",
+      "action": "IntersectionObserver adds visible",
+      "guard": "feature detect"
+    },
+    {
+      "name": "Sticky Nav",
+      "selector": "window",
+      "action": "add scrolled to #nav on scrollY>50",
+      "guard": "none"
+    },
+    {
+      "name": "Product Filter",
+      "selector": ".product-filter",
+      "action": "filter products by category",
+      "guard": "null-check"
+    },
+    {
+      "name": "Cart Counter",
+      "selector": ".cart-item",
+      "action": "update cart count on add to cart",
+      "guard": "null-check"
+    },
+    {
+      "name": "Search Functionality",
+      "selector": ".search-input",
+      "action": "filter products as user types",
+      "guard": "null-check"
+    },
+    {
+      "name": "Category Filter",
+      "selector": ".category-card",
+      "action": "filter products by category",
+      "guard": "null-check"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+}

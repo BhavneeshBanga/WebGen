@@ -1,0 +1,18 @@
+   [CSS 2/2] Part 2 generating (continuation)...
+   ✅  ./style.css  (12.6 KB)
+
+[PHASE 4/4] JavaScript generate ho raha hai...
+
+   [JS 1/2] Part 1 generating...
+   [JS 2/2] Part 2 generating (continuation)...
+Traceback (most recent call last):
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 915, in <module>
+    main()
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 894, in main
+    raw_js   = generate_js(user_prompt, plan, context)
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 632, in generate_js
+    return _double_call(
+  File "c:\Users\bhavi\Downloads\Coding Payground\Website Builder\app.py", line 660, in _double_call
+    part2 = _api_call(system, msg2_tpl.format(last_lines=last_lines), label=f"{label}-2")
+KeyError: 'behavior'
+PS C:\Users\bhavi\Downloads\Coding Payground\Website Builder> 

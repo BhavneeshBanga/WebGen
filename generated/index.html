@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Kirana Store - Your Neighborhood Grocery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-logo">Fresh Kirana</div>
+                <div class="navbar-menu">
+                    <div class="navbar-item"><a href="#home">Home</a></div>
+                    <div class="navbar-item"><a href="#about">About</a></div>
+                    <div class="navbar-item"><a href="#products">Products</a></div>
+                    <div class="navbar-item"><a href="#services">Services</a></div>
+                    <div class="navbar-item"><a href="#contact">Contact</a></div>
+                    <div class="navbar-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Fresh Produce Daily</h1>
+                <p class="hero-subtitle">Your trusted neighborhood grocery store delivering quality at your doorstep</p>
+                <button class="hero-cta">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>About Fresh Kirana</h2>
+                    <p>We're your neighborhood grocery store, committed to providing fresh, quality produce and daily essentials to our community. With over 10 years of service, we pride ourselves on excellent customer service and affordable prices.</p>
+                    <p>Our experienced team ensures every product meets our high standards of quality and freshness.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://picsum.photos/seed/kirana/400/300.jpg" alt="Fresh Kirana Store">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <div class="products">
+            <div class="products-container">
+                <h2>Our Products</h2>
+                <div class="category-filter">
+                    <button class="category-filter active" data-category="all">All</button>
+                    <button class="category-filter" data-category="vegetables">Vegetables</button>
+                    <button class="category-filter" data-category="fruits">Fruits</button>
+                    <button class="category-filter" data-category="dairy">Dairy</button>
+                    <button class="category-filter" data-category="grains">Grains</button>
+                    <button class="category-filter" data-category="snacks">Snacks</button>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="vegetables">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/tomato/200/200.jpg" alt="Fresh Tomatoes">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Fresh Tomatoes</h3>
+                            <p class="product-price">$2.99/lb</p>
+                            <p class="product-category">Vegetables</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="fruits">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/apple/200/200.jpg" alt="Fresh Apples">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Red Apples</h3>
+                            <p class="product-price">$1.99/lb</p>
+                            <p class="product-category">Fruits</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="dairy">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/milk/200/200.jpg" alt="Fresh Milk">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Organic Milk</h3>
+                            <p class="product-price">$3.49/gallon</p>
+                            <p class="product-category">Dairy</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="grains">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/rice/200/200.jpg" alt="Rice">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Basmati Rice</h3>
+                            <p class="product-price">$5.99/bag</p>
+                            <p class="product-category">Grains</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="snacks">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/chips/200/200.jpg" alt="Chips">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Potato Chips</h3>
+                            <p class="product-price">$2.49</p>
+                            <p class="product-category">Snacks</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="vegetables">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/onion/200/200.jpg" alt="Onions">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Fresh Onions</h3>
+                            <p class="product-price">$1.49/lb</p>
+                            <p class="product-category">Vegetables</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="fruits">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/banana/200/200.jpg" alt="Bananas">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Fresh Bananas</h3>
+                            <p class="product-price">$0.99/lb</p>
+                            <p class="product-category">Fruits</p>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="dairy">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/cheese/200/200.jpg" alt="Cheese">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Cheddar Cheese</h3>
+                            <p class="product-price">$4.99/lb</p>
+                            <p class="product-category">Dairy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="services">
+            <div class="services-container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://picsum.photos/seed/delivery/50/50.jpg" alt="Delivery">
+                        </div>
+                        <h3 class="service-title">Home Delivery</h3>
+                        <p class="service-description">Get your groceries delivered right to your doorstep within 2 hours of ordering.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://picsum.photos/seed/fresh/50/50.jpg" alt="Fresh">
+                        </div>
+                        <h3 class="service-title">Fresh Daily</h3>
+                        <p class="service-description">We receive fresh produce daily, ensuring you get the best quality every time.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://picsum.photos/seed/organic/50/50.jpg" alt="Organic">
+                        </div>
+                        <h3 class="service-title">Organic Options</h3>
+                        <p class="service-description">Wide selection of organic and natural products for healthy living.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://picsum.photos/seed/bulk/50/50.jpg" alt="Bulk">
+                        </div>
+                        <h3 class="service-title">Bulk Buying</h3>
+                        <p class="service-description">Special discounts on bulk purchases for families and businesses.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://picsum.photos/seed/custom/50/50.jpg" alt="Custom">
+                        </div>
+                        <h3 class="service-title">Custom Orders</h3>
+                        <p class="service-description">Special order items not in stock - we'll get them for you!</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://picsum.photos/seed/loyalty/50/50.jpg" alt="Loyalty">
+                        </div>
+                        <h3 class="service-title">Loyalty Program</h3>
+                        <p class="service-description">Earn points on every purchase and redeem for discounts and free items.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Store Location</h3>
+                            <p>123 Main Street, Downtown</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>info@freshkirana.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Hours</h3>
+                            <p>Mon-Sat: 7AM - 9PM<br>Sun: 8AM - 6PM</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="form-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-map">
+                    <div id="map" style="height: 300px; background: #f0f0f0; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #666;">
+                        <p>Map would be embedded here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Fresh Kirana Store. All rights reserved.</p>
+                    <p>Your neighborhood grocery store</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Made with ❤️ for our community</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

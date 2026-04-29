@@ -1,0 +1,282 @@
+{
+  "title": "Kirana Store Website",
+  "theme": {
+    "mood": "earthy",
+    "primary": "#8B4513",
+    "secondary": "#228B22",
+    "accent": "#FFD700",
+    "background": "#FFF8DC",
+    "surface": "#F5F5DC",
+    "text": "#3E2723",
+    "text_muted": "#666666",
+    "font_heading": "Roboto",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta"
+      ],
+      "elements": [
+        "hero heading",
+        "hero subheading",
+        "hero button",
+        "background image"
+      ],
+      "needs_image": true,
+      "image_query": "colorful Indian vegetable market stall with fresh produce and baskets"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About Us",
+      "classes": [
+        "about",
+        "about-container",
+        "about-content",
+        "about-title",
+        "about-text",
+        "about-img"
+      ],
+      "elements": [
+        "section heading",
+        "about text",
+        "about image"
+      ],
+      "needs_image": true,
+      "image_query": "traditional Indian kirana store with shelves full of spices and packaged goods"
+    },
+    {
+      "id": "products",
+      "tag": "section",
+      "name": "Products",
+      "classes": [
+        "products",
+        "products-container",
+        "products-grid",
+        "product-card",
+        "product-img",
+        "product-content",
+        "product-title",
+        "product-price",
+        "product-desc"
+      ],
+      "elements": [
+        "section heading",
+        "product cards",
+        "product images",
+        "product titles",
+        "product prices",
+        "product descriptions"
+      ],
+      "needs_image": true,
+      "image_query": "arranged display of Indian spices, lentils, rice, and cooking oils on wooden shelves"
+    },
+    {
+      "id": "featured",
+      "tag": "section",
+      "name": "Featured Products",
+      "classes": [
+        "featured",
+        "featured-container",
+        "featured-content",
+        "featured-title",
+        "featured-grid",
+        "featured-card",
+        "featured-img",
+        "featured-info",
+        "featured-price",
+        "featured-desc"
+      ],
+      "elements": [
+        "section heading",
+        "featured product cards",
+        "product images",
+        "product titles",
+        "product prices",
+        "product descriptions"
+      ],
+      "needs_image": true,
+      "image_query": "popular Indian grocery items like atta, sugar, tea, and biscuits in attractive display"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-container",
+        "contact-content",
+        "contact-title",
+        "contact-info",
+        "contact-map",
+        "contact-form",
+        "form-group",
+        "form-label",
+        "form-input",
+        "form-submit"
+      ],
+      "elements": [
+        "section heading",
+        "contact information",
+        "map",
+        "contact form",
+        "form fields",
+        "submit button"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "colorful Indian vegetable market stall with fresh produce and baskets",
+      "used_in": "hero section background"
+    },
+    {
+      "key": "about_img",
+      "query": "traditional Indian kirana store with shelves full of spices and packaged goods",
+      "used_in": "about section"
+    },
+    {
+      "key": "products_img",
+      "query": "arranged display of Indian spices, lentils, rice, and cooking oils on wooden shelves",
+      "used_in": "products section"
+    },
+    {
+      "key": "featured_img",
+      "query": "popular Indian grocery items like atta, sugar, tea, and biscuits in attractive display",
+      "used_in": "featured products section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "about",
+    "about-container",
+    "about-content",
+    "about-title",
+    "about-text",
+    "about-img",
+    "products",
+    "products-container",
+    "products-grid",
+    "product-card",
+    "product-img",
+    "product-content",
+    "product-title",
+    "product-price",
+    "product-desc",
+    "featured",
+    "featured-container",
+    "featured-content",
+    "featured-title",
+    "featured-grid",
+    "featured-card",
+    "featured-img",
+    "featured-info",
+    "featured-price",
+    "featured-desc",
+    "contact",
+    "contact-container",
+    "contact-content",
+    "contact-title",
+    "contact-info",
+    "contact-map",
+    "contact-form",
+    "form-group",
+    "form-label",
+    "form-input",
+    "form-submit",
+    "reveal"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "products",
+    "featured",
+    "contact"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle class 'nav-open' on .nav-links",
+      "guard": "null-check before addEventListener"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "preventDefault, scrollIntoView({behavior:'smooth'})",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".reveal",
+      "action": "IntersectionObserver adds class 'visible' when 20% in view",
+      "guard": "check IntersectionObserver support"
+    },
+    {
+      "name": "Sticky Nav Shadow",
+      "selector": "window scroll",
+      "action": "add class 'scrolled' to nav when scrollY > 50",
+      "guard": "none needed"
+    },
+    {
+      "name": "Form Validation",
+      "selector": ".contact-form",
+      "action": "validate email and phone fields on submit",
+      "guard": "check form elements exist"
+    },
+    {
+      "name": "Lazy Load Images",
+      "selector": "img[data-src]",
+      "action": "load images when in viewport",
+      "guard": "check image support"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+}

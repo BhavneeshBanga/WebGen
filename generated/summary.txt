@@ -1,0 +1,118 @@
+=== INDEX.HTML SUMMARY FOR CSS & JS DEVELOPER ===
+
+Page Purpose: create a website for Pharma shop
+
+--- Section Comments in HTML ---
+  * HEADER SECTION
+  * HERO SECTION
+  * CATEGORIES SECTION
+  * FEATURED PRODUCTS SECTION
+  * ABOUT SECTION
+  * NEWSLETTER SECTION
+  * FOOTER SECTION
+  * CART SIDEBAR
+  * SEARCH POPUP
+
+--- CSS Classes Used ---
+  .about
+  .about-content
+  .about-features
+  .about-image
+  .about-text
+  .active
+  .btn-add-cart
+  .btn-cart
+  .btn-checkout
+  .btn-primary
+  .btn-remove
+  .btn-search
+  .btn-subscribe
+  .cart-close
+  .cart-content
+  .cart-count
+  .cart-header
+  .cart-icon
+  .cart-item
+  .cart-items
+  .cart-sidebar
+  .cart-summary
+  .categories
+  .category-card
+  .category-grid
+  .container
+  .feature
+  .feature-icon
+  .featured-products
+  .footer
+  .footer-bottom
+  .footer-content
+  .footer-section
+  .header
+  .hero
+  .hero-content
+  .hero-cta
+  .hero-image
+  .hero-subtitle
+  .hero-title
+  .item-controls
+  .item-info
+  .item-price
+  .nav-actions
+  .nav-container
+  .nav-link
+  .nav-logo
+  .nav-menu
+  .newsletter
+  .newsletter-content
+  .newsletter-form
+  .product-card
+  .product-description
+  .product-grid
+  .product-info
+  .product-price
+  .quantity
+  .quantity-minus
+  .quantity-plus
+  .search-close
+  .search-content
+  .search-icon
+  .search-input
+  .search-popup
+  .search-suggestions
+  .section-title
+  .suggestion-item
+  .summary-row
+  .total
+
+--- IDs Used ---
+  #1
+  #2
+  #3
+  #4
+  #5
+  #6
+
+--- Data Attributes (for JS hooks) ---
+  [data-action="close-cart"]
+  [data-action="close-search"]
+  [data-action="remove-item"]
+  [data-action="subscribe"]
+  [data-category="cold-flu"]
+  [data-category="dermatology"]
+  [data-category="diabetes"]
+  [data-category="heart-health"]
+  [data-category="pain-relief"]
+  [data-category="vitamins"]
+  [data-product-id="1"]
+  [data-product-id="2"]
+  [data-product-id="3"]
+  [data-product-id="4"]
+  [data-product-id="5"]
+  [data-product-id="6"]
+  [data-toggle="cart"]
+  [data-toggle="search"]
+
+--- HTML Tags Used ---
+  a, button, div, footer, form, h1, h2, h3, h4, header, i, img, input, li, nav, p, section, span, ul
+
+=== END SUMMARY ===

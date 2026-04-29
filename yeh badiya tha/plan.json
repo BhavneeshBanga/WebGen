@@ -1,0 +1,370 @@
+{
+  "title": "Kirana Store - Your Neighborhood Grocery",
+  "theme": {
+    "mood": "earthy",
+    "primary": "#D2691E",
+    "secondary": "#228B22",
+    "accent": "#FFD700",
+    "background": "#FFF8DC",
+    "surface": "#F5DEB3",
+    "text": "#3E2723",
+    "text_muted": "#6B4423",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "hero-cta"
+      ],
+      "elements": [
+        "hero headline",
+        "hero subtext",
+        "call-to-action button"
+      ],
+      "needs_image": true,
+      "image_query": "hero_bg"
+    },
+    {
+      "id": "featured",
+      "tag": "section",
+      "name": "Featured Products",
+      "classes": [
+        "featured",
+        "featured-content",
+        "featured-grid",
+        "featured-card",
+        "featured-image",
+        "featured-info",
+        "featured-title"
+      ],
+      "elements": [
+        "featured products grid",
+        "featured product cards",
+        "featured product titles"
+      ],
+      "needs_image": true,
+      "image_query": "featured_products"
+    },
+    {
+      "id": "offers",
+      "tag": "section",
+      "name": "Special Offers",
+      "classes": [
+        "offers",
+        "offers-content",
+        "offer-card",
+        "offer-title",
+        "offer-details",
+        "offer-price",
+        "offer-countdown"
+      ],
+      "elements": [
+        "offer cards",
+        "offer titles",
+        "offer details",
+        "offer prices"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About Us",
+      "classes": [
+        "about",
+        "about-content",
+        "about-text",
+        "about-image",
+        "about-stats"
+      ],
+      "elements": [
+        "about description",
+        "store image",
+        "store hours",
+        "contact info"
+      ],
+      "needs_image": true,
+      "image_query": "about_img"
+    },
+    {
+      "id": "products",
+      "tag": "section",
+      "name": "Products",
+      "classes": [
+        "products",
+        "products-grid",
+        "product-card",
+        "product-image",
+        "product-info",
+        "product-price",
+        "product-add"
+      ],
+      "elements": [
+        "product grid",
+        "product cards",
+        "add to cart buttons"
+      ],
+      "needs_image": true,
+      "image_query": "product_items"
+    },
+    {
+      "id": "reviews",
+      "tag": "section",
+      "name": "Customer Reviews",
+      "classes": [
+        "reviews",
+        "reviews-content",
+        "review-card",
+        "review-text",
+        "review-author",
+        "review-rating",
+        "review-date"
+      ],
+      "elements": [
+        "review cards",
+        "review text",
+        "review authors",
+        "review ratings",
+        "review dates"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "delivery",
+      "tag": "section",
+      "name": "Delivery Information",
+      "classes": [
+        "delivery",
+        "delivery-content",
+        "delivery-info",
+        "delivery-map",
+        "delivery-details",
+        "delivery-hours"
+      ],
+      "elements": [
+        "delivery information",
+        "delivery map",
+        "delivery hours",
+        "delivery details"
+      ],
+      "needs_image": true,
+      "image_query": "delivery_map"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-content",
+        "contact-form",
+        "contact-info",
+        "contact-map",
+        "contact-details"
+      ],
+      "elements": [
+        "contact form",
+        "address details",
+        "phone number",
+        "map placeholder"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "footer",
+      "tag": "footer",
+      "name": "Footer",
+      "classes": [
+        "footer",
+        "footer-content",
+        "footer-links",
+        "footer-bottom"
+      ],
+      "elements": [
+        "footer links",
+        "social icons",
+        "copyright text"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "kirana store interior with fresh vegetables and groceries",
+      "used_in": "hero section"
+    },
+    {
+      "key": "about_img",
+      "query": "kirana store exterior with welcoming entrance",
+      "used_in": "about section"
+    },
+    {
+      "key": "product_items",
+      "query": "assorted kirana store products like rice, spices, oils, packaged foods",
+      "used_in": "products section"
+    },
+    {
+      "key": "featured_products",
+      "query": "popular kirana store items and bestsellers",
+      "used_in": "featured section"
+    },
+    {
+      "key": "delivery_map",
+      "query": "kirana store delivery area map",
+      "used_in": "delivery section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "hero-cta",
+    "featured",
+    "featured-content",
+    "featured-grid",
+    "featured-card",
+    "featured-image",
+    "featured-info",
+    "featured-title",
+    "offers",
+    "offers-content",
+    "offer-card",
+    "offer-title",
+    "offer-details",
+    "offer-price",
+    "offer-countdown",
+    "about",
+    "about-content",
+    "about-text",
+    "about-image",
+    "about-stats",
+    "products",
+    "products-grid",
+    "product-card",
+    "product-image",
+    "product-info",
+    "product-price",
+    "product-add",
+    "reviews",
+    "reviews-content",
+    "review-card",
+    "review-text",
+    "review-author",
+    "review-rating",
+    "review-date",
+    "delivery",
+    "delivery-content",
+    "delivery-info",
+    "delivery-map",
+    "delivery-details",
+    "delivery-hours",
+    "contact",
+    "contact-content",
+    "contact-form",
+    "contact-info",
+    "contact-map",
+    "contact-details",
+    "footer",
+    "footer-content",
+    "footer-links",
+    "footer-bottom",
+    "reveal",
+    "cart-icon"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "featured",
+    "offers",
+    "about",
+    "products",
+    "reviews",
+    "delivery",
+    "contact",
+    "footer"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle nav-open on .nav-links",
+      "guard": "null-check"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "scrollIntoView smooth",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".reveal",
+      "action": "IntersectionObserver adds visible",
+      "guard": "feature detect"
+    },
+    {
+      "name": "Sticky Nav",
+      "selector": "#nav",
+      "action": "add scrolled to #nav on scrollY>50",
+      "guard": "none"
+    },
+    {
+      "name": "Product Quick View",
+      "selector": ".product-card",
+      "action": "show modal on click",
+      "guard": "null-check"
+    },
+    {
+      "name": "Cart Counter",
+      "selector": ".cart-icon",
+      "action": "update count on product add",
+      "guard": "null-check"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+}

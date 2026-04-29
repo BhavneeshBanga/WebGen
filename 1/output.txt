@@ -1,0 +1,93 @@
+Kya banana hai? (e.g. 'dark theme restaurant landing page with menu')
+
+>>> create a website for my kirana store
+
+[PHASE 0] Deep planning...
+
+   [Call 1/8] Generating plan...
+   ✅ Plan: 6 sections | 48 classes | 3 images needed
+   [Call 2/8] Self-validating plan...
+   ✅ Plan: 8 sections | 58 classes | 5 images needed
+   ✅ Validated: 58 classes confirmed
+   ✅  ./plan.json  (7.5 KB)
+
+[IMAGES] SerpAPI se 5 image sets download ho rahe hain...
+
+   Searching: 'colorful kirana store shelves with Indian spices and grains'...
+   ✅  hero_bg.jpg (57KB)
+   Searching: 'local Indian kirana store owner with customers'...
+   ✅  about_img.jpg (31KB)
+   Searching: 'assorted Indian groceries in kirana store'...
+   ✅  product_img.jpg (96KB)
+   Searching: 'Indian daily special offers with discount tags on groceries'...
+   ✅  daily_special_img.jpg (870KB)
+   Searching: 'Indian delivery person with grocery bags on bicycle'...
+   ✅  delivery_img.jpg (63KB)
+
+   Context preview (first 20 lines):
+      ╔══════════════════════════════════════════════════════════╗
+      ║                  BLUEPRINT — FOLLOW EXACTLY              ║
+      ╚══════════════════════════════════════════════════════════╝
+      
+      TITLE:      Kirana Store Website
+      MOOD:       professional
+      
+      THEME COLORS (use in :root variables):
+        --primary:    #E67E22
+        --secondary:  #27AE60
+        --accent:     #F39C12
+        --bg:         #FFF8F3
+        --surface:    #FFFFFF
+        --text:       #2C3E50
+        --text-muted: #7F8C8D
+        --radius:     8px
+      
+      FONTS:
+        Heading: Poppins
+        Body:    Open Sans
+
+
+[PHASE 2/4] HTML generate ho raha hai...
+
+   [HTML 1/2] Part 1 generating...
+   [HTML 2/2] Part 2 generating (continuation)...
+   ✅  ./index.html  (7.2 KB)
+
+[PHASE 3/4] CSS generate ho raha hai...
+
+   [CSS 1/2] Part 1 generating...
+   [CSS 2/2] Part 2 generating (continuation)...
+   ✅  ./style.css  (18.0 KB)
+
+[PHASE 4/4] JavaScript generate ho raha hai...
+
+   [JS 1/2] Part 1 generating...
+   [JS 2/2] Part 2 generating (continuation)...
+   ✅  ./script.js  (18.0 KB)
+
+── Quality Check ───────────────────────────────────────────
+   ❌  HTML has DOCTYPE
+   ✅  HTML closed properly
+   ✅  HTML links style.css
+   ✅  HTML links script.js
+   ✅  CSS has :root variables
+   ✅  CSS has responsive breakpoint
+   ✅  CSS has scroll reveal styles
+   ✅  JS has nav toggle
+   ✅  JS has smooth scroll
+   ✅  JS has scroll reveal observer
+
+   ⚠️  1 issue(s) — files saved anyway
+────────────────────────────────────────────────────────────
+
+=================================================================
+  Done!  (8 API calls + 5 images downloaded)
+  index.html  →  open in browser
+  style.css
+  script.js
+  images/     →  5 real images
+  plan.json   →  full blueprint
+=================================================================
+  open index.html
+
+PS C:\Users\bhavi\Downloads\Coding Payground\Website Builder> 

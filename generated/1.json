@@ -1,0 +1,343 @@
+{
+  "title": "Kirana Store - Your Neighborhood Grocery Shop",
+  "theme": {
+    "mood": "earthy",
+    "primary": "#8B4513",
+    "secondary": "#D2691E",
+    "accent": "#228B22",
+    "background": "#FFF8DC",
+    "surface": "#F5DEB3",
+    "text": "#3E2723",
+    "text_muted": "#665C47",
+    "font_heading": "Poppins",
+    "font_body": "Open Sans",
+    "border_radius": "8px"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "nav",
+      "name": "Navigation",
+      "classes": [
+        "navbar",
+        "nav-container",
+        "nav-logo",
+        "nav-links",
+        "nav-link",
+        "nav-toggle",
+        "nav-toggle-bar"
+      ],
+      "elements": [
+        "logo text",
+        "5 nav links",
+        "hamburger icon"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "hero",
+      "tag": "section",
+      "name": "Hero",
+      "classes": [
+        "hero",
+        "hero-bg",
+        "hero-content",
+        "hero-title",
+        "hero-subtitle",
+        "cta-button"
+      ],
+      "elements": [
+        "hero heading",
+        "hero subtitle",
+        "cta button",
+        "featured products carousel"
+      ],
+      "needs_image": true,
+      "image_query": "colorful Indian vegetable market with fresh produce"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "name": "About",
+      "classes": [
+        "about",
+        "about-content",
+        "about-text",
+        "about-image",
+        "section-title"
+      ],
+      "elements": [
+        "section heading",
+        "about paragraph",
+        "store image",
+        "store details list"
+      ],
+      "needs_image": true,
+      "image_query": "traditional Indian kirana store with shelves of spices and grains"
+    },
+    {
+      "id": "products",
+      "tag": "section",
+      "name": "Products",
+      "classes": [
+        "products",
+        "products-grid",
+        "product-card",
+        "product-image",
+        "product-info",
+        "product-price",
+        "filter-bar",
+        "filter-btn"
+      ],
+      "elements": [
+        "filter buttons",
+        "product cards with images",
+        "product names",
+        "product prices",
+        "add to cart buttons"
+      ],
+      "needs_image": true,
+      "image_query": "organized shelves of Indian spices, lentils, and packaged foods"
+    },
+    {
+      "id": "delivery",
+      "tag": "section",
+      "name": "Delivery",
+      "classes": [
+        "delivery",
+        "delivery-content",
+        "delivery-info",
+        "delivery-map",
+        "delivery-hours",
+        "section-title"
+      ],
+      "elements": [
+        "delivery heading",
+        "delivery zones map",
+        "delivery hours",
+        "delivery charges",
+        "contact for delivery"
+      ],
+      "needs_image": true,
+      "image_query": "local delivery map showing kirana store service area"
+    },
+    {
+      "id": "offers",
+      "tag": "section",
+      "name": "Special Offers",
+      "classes": [
+        "offers",
+        "offers-grid",
+        "offer-card",
+        "offer-title",
+        "offer-price",
+        "offer-expiry"
+      ],
+      "elements": [
+        "offer cards",
+        "discount percentages",
+        "offer details",
+        "expiry dates"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "name": "Contact",
+      "classes": [
+        "contact",
+        "contact-content",
+        "contact-info",
+        "contact-details",
+        "contact-form",
+        "form-group",
+        "form-input",
+        "form-button"
+      ],
+      "elements": [
+        "contact heading",
+        "address details",
+        "phone number",
+        "email",
+        "contact form",
+        "submit button"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    },
+    {
+      "id": "footer",
+      "tag": "footer",
+      "name": "Footer",
+      "classes": [
+        "footer",
+        "footer-content",
+        "footer-links",
+        "footer-social",
+        "social-icon"
+      ],
+      "elements": [
+        "footer text",
+        "social media icons",
+        "copyright notice"
+      ],
+      "needs_image": false,
+      "image_query": ""
+    }
+  ],
+  "image_queries": [
+    {
+      "key": "hero_bg",
+      "query": "colorful Indian vegetable market with fresh produce",
+      "used_in": "hero background"
+    },
+    {
+      "key": "about_img",
+      "query": "traditional Indian kirana store with shelves of spices and grains",
+      "used_in": "about section"
+    },
+    {
+      "key": "products_img",
+      "query": "organized shelves of Indian spices, lentils, and packaged foods",
+      "used_in": "products section"
+    },
+    {
+      "key": "delivery_map",
+      "query": "local delivery map showing kirana store service area",
+      "used_in": "delivery section"
+    }
+  ],
+  "all_classes": [
+    "navbar",
+    "nav-container",
+    "nav-logo",
+    "nav-links",
+    "nav-link",
+    "nav-toggle",
+    "nav-toggle-bar",
+    "hero",
+    "hero-bg",
+    "hero-content",
+    "hero-title",
+    "hero-subtitle",
+    "cta-button",
+    "about",
+    "about-content",
+    "about-text",
+    "about-image",
+    "section-title",
+    "products",
+    "products-grid",
+    "product-card",
+    "product-image",
+    "product-info",
+    "product-price",
+    "filter-bar",
+    "filter-btn",
+    "delivery",
+    "delivery-content",
+    "delivery-info",
+    "delivery-map",
+    "delivery-hours",
+    "contact",
+    "contact-info",
+    "contact-details",
+    "contact-form",
+    "form-group",
+    "form-input",
+    "form-button",
+    "footer",
+    "footer-content",
+    "footer-links",
+    "footer-social",
+    "social-icon",
+    "offers",
+    "offers-grid",
+    "offer-card",
+    "offer-title",
+    "offer-price",
+    "offer-expiry",
+    "flat",
+    "deduplicated",
+    "list",
+    "of",
+    "every",
+    "class",
+    "visible",
+    "scrolled",
+    "cart-item",
+    "search-bar",
+    "search-input",
+    "search-button"
+  ],
+  "all_ids": [
+    "nav",
+    "hero",
+    "about",
+    "products",
+    "delivery",
+    "offers",
+    "contact",
+    "footer"
+  ],
+  "js_features": [
+    {
+      "name": "Mobile Nav Toggle",
+      "selector": ".nav-toggle",
+      "action": "toggle class 'nav-open' on .nav-links",
+      "guard": "null-check before addEventListener"
+    },
+    {
+      "name": "Smooth Scroll",
+      "selector": ".nav-link",
+      "action": "preventDefault, scrollIntoView({behavior:'smooth'})",
+      "guard": "null-check"
+    },
+    {
+      "name": "Scroll Reveal",
+      "selector": ".product-card",
+      "action": "IntersectionObserver adds class 'visible' when 20% in view",
+      "guard": "check IntersectionObserver support"
+    },
+    {
+      "name": "Sticky Nav Shadow",
+      "selector": "window scroll",
+      "action": "add class 'scrolled' to nav when scrollY > 50",
+      "guard": "none needed"
+    },
+    {
+      "name": "Cart Counter",
+      "selector": ".cart-item",
+      "action": "increment cart counter and update UI",
+      "guard": "check if cart exists in localStorage"
+    },
+    {
+      "name": "Product Filter",
+      "selector": ".filter-btn",
+      "action": "filter products based on selected category",
+      "guard": "check if products loaded"
+    },
+    {
+      "name": "Search Functionality",
+      "selector": ".search-input",
+      "action": "filter products as user types",
+      "guard": "debounce search input"
+    },
+    {
+      "name": "Offer Countdown",
+      "selector": ".offer-card",
+      "action": "add countdown timer for expiring offers",
+      "guard": "check if offer has expiry date"
+    },
+    {
+      "name": "Delivery Zone Check",
+      "selector": ".delivery-info",
+      "action": "check if user is within delivery zone",
+      "guard": "check user location"
+    }
+  ],
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+}
